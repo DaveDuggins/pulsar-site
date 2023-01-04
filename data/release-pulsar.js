@@ -1,13 +1,23 @@
 module.exports = [
     {
+        "author": "liangyepianzhou",
+        "tagName": "v2.10.3",
+        "publishedAt": "2023-01-04T01:53:34Z",
+        "vtag": "2.10.x",
+        "releaseNotes": "/release-notes/versioned/pulsar-2.10.3/",
+        "releaseBlog": "",
+        "doc": "/docs/2.10.x",
+        "version": "v2.10.x"
+    },
+    {
         "author": "Jason918",
         "tagName": "v2.10.2",
         "publishedAt": "2022-10-28T01:53:34Z",
         "vtag": "2.10.x",
         "releaseNotes": "/release-notes/versioned/pulsar-2.10.2/",
         "releaseBlog": "",
-        "doc": "/docs/",
-        "version": "v2.10.x"
+        "doc": "/docs/2.10.x",
+        "version": ""
     },
     {
         "author": "codelipenghui",
@@ -16,7 +26,7 @@ module.exports = [
         "vtag": "2.10.x",
         "releaseNotes": "/release-notes/versioned/pulsar-2.10.1/",
         "releaseBlog": "/blog/2022/07/12/Apache-Pulsar-2-10-1",
-        "doc": "/docs/",
+        "doc": "/docs/2.10.x",
         "version": ""
     },
     {
@@ -26,8 +36,18 @@ module.exports = [
         "vtag": "2.10.x",
         "releaseNotes": "/release-notes/versioned/pulsar-2.10.0/",
         "releaseBlog": "",
-        "doc": "/docs/",
+        "doc": "/docs/2.10.x",
         "version": ""
+    },
+    {
+        "author": "congbobo184",
+        "tagName": "v2.9.4",
+        "publishedAt": "2022-12-28T01:12:20Z",
+        "vtag": "2.9.x",
+        "releaseNotes": "/release-notes/versioned/pulsar-2.9.4/",
+        "releaseBlog": "",
+        "doc": "/docs/2.9.x",
+        "version": "v2.9.x"
     },
     {
         "author": "mattisonchao",
@@ -37,7 +57,7 @@ module.exports = [
         "releaseNotes": "/release-notes/versioned/pulsar-2.9.3/",
         "releaseBlog": "/blog/2022/07/27/Apache-Pulsar-2-9-3",
         "doc": "/docs/2.9.x",
-        "version": "v2.9.x"
+        "version": ""
     },
     {
         "author": "gaoran10",
