@@ -123,7 +123,7 @@ const injectLinkParseForEndpoint = ([, info]) => {
 /** @type {import('@docusaurus/types').Config} */
 module.exports = {
     title: "Apache Pulsar",
-    tagline: "Apache Pulsar is a distributed, open source pub-sub messaging and streaming platform for real-time workloads, managing hundreds of billions of events per day.",
+    tagline: "Apache Pulsar is an open-source, distributed messaging and streaming platform built for the cloud.",
     url: "https://pulsar.apache.org",
     baseUrl: baseUrl,
     onBrokenLinks: "ignore",
