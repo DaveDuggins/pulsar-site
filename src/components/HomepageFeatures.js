@@ -46,7 +46,7 @@ const FeatureList = (language) => [
   {
     title: "Operability",
     Svg: require("../../static/img/operability.svg").default,
-    content:"REST Admin API for provisioning, administration, tools and monitoring. Can be deployed on bare metal, Kubernetes, Amazon Web Services(AWS), and DataCenter Operating System(DC/OS).",
+    content:"Pulsar's unique architecture supports up to 1 million topics in a single cluster. Simplify your own architecture by avoiding multiplexing multiple streams into a single topic.",
   },
 ];
 
