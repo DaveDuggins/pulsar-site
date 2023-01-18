@@ -161,12 +161,13 @@ module.exports = {
                     position: "right",
                     items: [
                         {
-                            type: "doc",
-                            docId: "concepts-overview",
+                            type: 'doc',
+                            docId: 'concepts-overview',
                             label: "Pulsar Concepts",
                         },
                         {
-                            to: `/docs/${versions[0]}/`,
+                            type: 'doc',
+                            docId: 'about',
                             label: "Quickstart",
                         },
                         {
@@ -176,7 +177,8 @@ module.exports = {
                     ],
                 },
                 {
-                    to: `/docs/${versions[0]}/`,
+                    type: 'doc',
+                    docId: 'about',
                     position: "right",
                     label: "Docs",
                 },
@@ -352,21 +354,6 @@ module.exports = {
         ],
     ],
     plugins: [
-        [
-            '@docusaurus/plugin-client-redirects',
-            /** @type {import('@docusaurus/plugin-client-redirects').Options} */
-            {
-                createRedirects(existingPath) {
-                    const latestVersion = versions[0];
-                    if (existingPath.includes(`/docs/${latestVersion}`)) {
-                        return [
-                            existingPath.replace(`/docs/${latestVersion}`, '/docs/'),
-                        ];
-                    }
-                    return undefined;
-                },
-            },
-        ],
         "./postcss-tailwind-loader",
         [
             'content-docs',
